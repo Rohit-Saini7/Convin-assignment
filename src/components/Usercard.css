@@ -1,0 +1,43 @@
+.userCardWrapper {
+  background-color: var(--other1);
+  position: absolute;
+  top: 18vh;
+  left: 35%;
+  width: 30%;
+  height: 20vh;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  font-size: 1.3rem;
+}
+
+.noUserSelected {
+  width: 100%;
+  height: 100%;
+}
+
+.userSelected {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.userAvatar {
+  height: 128px;
+  width: 128px;
+  border-radius: 50%;
+  margin-left: 10%;
+}
+
+.userName {
+  position: absolute;
+  top: 26%;
+  left: 50%;
+}
+
+.userEmail {
+  position: absolute;
+  bottom: 28%;
+  left: 43%;
+}

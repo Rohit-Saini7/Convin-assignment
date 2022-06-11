@@ -1,0 +1,30 @@
+.buttonsWrapper {
+  background-color: var(--other2);
+  position: absolute;
+  top: 45vh;
+  left: 35%;
+  height: 10vh;
+  width: 30%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 1.7rem;
+}
+
+.buttonsWrapper button {
+  border: none;
+  background-color: transparent;
+  color: var(--font);
+  outline: 1px solid;
+  border-radius: 50%;
+  height: 5vh;
+  width: 5vh;
+  margin: 0 auto;
+  transition: 0.25s;
+}
+
+.buttonsWrapper button:hover {
+  background-color: var(--other1);
+  font-size: 2.1rem;
+  margin-bottom: 20px;
+}
