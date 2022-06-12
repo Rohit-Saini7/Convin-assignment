@@ -41,3 +41,48 @@
   bottom: 28%;
   left: 43%;
 }
+
+@media screen and (max-width: 1350px) {
+  .userCardWrapper {
+    left: 20%;
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .userCardWrapper {
+    left: 10%;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .userCardWrapper {
+    top: 18vh;
+    left: 2%;
+    width: 96%;
+    height: 35vh;
+    padding: 40px;
+    font-size: 2.3rem;
+    display: block;
+  }
+
+  .userAvatar {
+    height: 156px;
+    width: 156px;
+    border-radius: 50%;
+    /* margin-left: 10%; */
+    margin: 20px auto;
+  }
+
+  .userName {
+    position: static;
+    margin: 10%;
+  }
+
+  .userEmail {
+    position: absolute;
+    bottom: 20%;
+    left: 7%;
+  }
+}

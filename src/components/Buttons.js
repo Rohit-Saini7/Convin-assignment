@@ -8,9 +8,10 @@ function Buttons() {
   const dispatch = useDispatch();
   const users = useSelector((state) => state);
 
-  $("button").on("click", (event) =>
-    dispatch(getSingleUser(event.target.value))
-  );
+  $("button").on("click", (event) => {
+    event.stopImmediatePropagation();
+    dispatch(getSingleUser(event.target.value));
+  });
   return (
     <div className="buttonsWrapper">
       {users.usersList.list.map((user) => (
